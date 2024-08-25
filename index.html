@@ -60,7 +60,10 @@
         <div class="navbar-end hidden lg:flex">
           <a><i class="fa-solid fa-magnifying-glass mr-4 text-textPara"></i></a>
           <a><i class="fa-solid fa-cart-shopping mr-4 text-textPara"></i></a>
-          <a class="rounded-3xl bg-primary p-3">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 ... mx-2"></i></a>
+          <div class="button rounded-3xl bg-primary px-4 py-2">
+            <a class="text-base">Book Consult</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
+          </div>
+          <!--<a class="rounded-3xl bg-primary p-3">Book Consult<i class="fa-solid fa-arrow-right text-xs text-white bg-slate-950 p-1 rounded-full -rotate-45 ... mx-2"></i></a>-->
         </div>
       </div>
     </div>
@@ -71,18 +74,23 @@
       <div class="text-center">
         <h1 class="text-4xl font-bold text-textColor my-8">A barn house of this design has a striking appearance</h1>
         <p class="text-sm text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,<br> sleek metal accents, and large windows that flood the space with natural light.</p>
-        <a class="rounded-3xl bg-primary p-2">View Details<i class="fa-solid fa-arrow-right -rotate-45 ... mx-2"></i></a>
+        <div class="button rounded-3xl bg-primary px-4 py-2 inline-block">
+          <a class="text-base">View Details</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
+        </div>
       </div>
     </div>
   </header>
+  <!--end of header-->
+  <!--main start-->
   <main>
+    <!--about section start-->
     <section class="bg-blue-200 py-8">
-      <div class="grid gap-10 grid-cols-1 md:gid-cols-2 lg:grid-cols-2 py-20 container mx-auto">
-        <div class="about-content">
+      <div class="grid gap-x-20 grid-cols-1 md:gid-cols-2 lg:grid-cols-2 py-20 container mx-auto">
+        <div>
           <button class="mb-5">
-            <a class="text-sm text-textPara inline px-3 py-1 bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</a>
+            <a class="text-sm text-textPara inline px-4 py-1 bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</a>
           </button>
-          <div>
+          <div class="pr-4">
             <h2 class="text-3xl font-bold text-textColor my-8">We design thoughtful,<br> liveable spaces</h2>
             <p class="text-base text-textPara mb-12">The barn house captivates with its blend of rustic charm and<br> modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
@@ -105,16 +113,18 @@
             </div>
           </div>
         </div>
-        <div class="text-right">
+        <div>
           <img src="images/Rectangle.png" class="object-cover">
         </div>
       </div>
     </section>
-    <section class="bg-blue-200 py-8">
+    <!--end of about-->
+    <!--service section start-->
+    <section class="bg-blue-200 pt-8 pb-20">
       <!-- Title -->
       <div class="text-center mb-8">
         <button class="mb-5">
-          <a class="text-sm text-textPara inline px-3 py-1 bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>How we works</a>
+          <a class="text-sm text-textPara inline px-5 py-2 bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>How we works</a>
         </button>
         <h1 class="text-3xl md:text-4xl font-bold mb-8">
           Our Works Process
@@ -124,30 +134,30 @@
         </p>
       </div>
       <!-- Grid Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 container mx-auto pt-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 container mx-auto pt-8">
         <div class="bg-red-200">
-          <div class="px-6 py-10">
+          <div class="px-4 py-10">
             <img src="images/concept.png">
             <h4 class="text-lg text-textColor font-semibold mb-4 mt-3">Concept</h4>
             <p class="text-xs text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
         <div class="bg-yellow-300">
-          <div class="px-6 py-10">
+          <div class="px-4 py-10">
             <img src="images/flow-chart.png">
             <h4 class="text-lg text-textColor font-semibold mb-4 mt-3">Design Process</h4>
             <p class="text-xs text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
         <div class="bg-emerald-300">
-          <div class="px-6 py-10">
+          <div class="px-4 py-10">
             <img src="images/vision.png">
             <h4 class="text-lg text-textColor font-semibold mb-4 mt-3">Supervision</h4>
             <p class="text-xs text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
         <div class="bg-cyan-400">
-          <div class="px-6 py-10">
+          <div class="px-4 py-10">
             <img src="images/budget-planning.png">
             <h4 class="text-lg text-textColor font-semibold mb-4 mt-3">Budget Planning</h4>
             <p class="text-xs text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern.</p>
@@ -155,10 +165,11 @@
         </div>
       </div>
     </section>
+    <!--end of service-->
     <!--contact start-->
     <section class="bg-no-repeat bg-center ... object-cover w-full" style="background-image: url(./images/bg1.jpg)">
          <!-- Title -->
-      <div class="text-center mb-8 py-10">
+      <div class="text-center py-5">
         <button class="mb-5">
           <a class="text-sm text-textPara inline px-3 py-1 bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>How we works</a>
         </button>
@@ -173,19 +184,21 @@
         <form>
           <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-1/2 mx-auto py-4">
-               <input class="w-full rounded-xl text-xs text-textPara text-left pl-3 h-10 outline-none" type="text" placeholder="First Name*">
-              <input class="w-full rounded-xl text-xs text-textPara text-left pl-3 h-10 outline-none" type="text" placeholder="Last Name*">
+               <input class="w-full rounded-xl text-xs text-left pl-3 h-10 outline-none" type="text" placeholder="First Name*">
+              <input class="w-full rounded-xl text-xs text-left pl-3 h-10 outline-none" type="text" placeholder="Last Name*">
             </div> 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-1/2 mx-auto py-4">
-              <input class="w-full rounded-xl text-xs text-textPara text-left pl-3 h-10 outline-none" type="text" placeholder="Phone Number*">
-             <input class="w-full rounded-xl text-xs text-textPara text-left pl-3 h-10 outline-none" type="email" placeholder="Email Number*">
+              <input class="w-full rounded-xl text-xs text-left pl-3 h-10 outline-none" type="text" placeholder="Phone Number*">
+             <input class="w-full rounded-xl text-xs text-left pl-3 h-10 outline-none" type="email" placeholder="Email Number*">
             </div>
             <div class="grid grid-cols-1 w-1/2 mx-auto py-4">
-                <textarea class="rounded-xl text-xs text-left pl-3 resize-none outline-none" rows="8" name="text">Write your message here
+                <textarea class="rounded-xl text-xs text-left pl-2 pt-2 text-neutral-400 resize-none outline-none" rows="8" name="message">Write your message here
                 </textarea> 
             </div>
-            <div class="grid grid-cols-1 w-1/2 mx-auto py-4">
-              <a href="" class="bg-red-400 px-8 py-3 rounded-md text-white hover:bg-white hover:text-red-400 border-2 border-solid border-red-400 transition-all">Send Mail</a>
+            <div class="grid grid-cols-1 w-1/2 mx-auto py-8">
+              <div class="button rounded-3xl bg-primary px-4 py-2 text-center">
+                <a class="text-base">Send Mail</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
+              </div>
             </div>
           </div>        
         </form>
@@ -193,6 +206,35 @@
     </section>
     <!--end of contact-->
   </main>
-  <footer></footer>
+  <!--end of main-->
+  <!--footer start-->
+  <footer class="bg-neutral-950 py-10">
+    <div class="flex items-center justify-center">
+      <div class="bg-primary px-2 py-1 rounded-full">
+        <i class="fa-solid fa-arrow-right text-sm -rotate-45 ..."></i>
+      </div>
+      <div>
+        <a class="text-2xl ml-3 text-white">Rinterio</a>
+      </div>
+    </div>
+      <p class="text-textPara text-center text-sm my-5">
+        The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+      </p>
+      <div class="flex items-center justify-center">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="text-textPara text-xs">Home</a></li>
+          <li><a class="text-textPara text-xs">Services</a></li>
+          <li><a class="text-textPara text-xs">Portfolio</a></li>
+          <li><a class="text-textPara text-xs">Blogs</a></li>
+          <li><a class="text-textPara text-xs">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center justify-center mt-3">
+        <div class="button rounded-3xl bg-primary px-4 py-2 inline-block">
+          <a class="text-xs">Book Consult</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
+        </div>
+    </div>
+  </footer>
+  <!--footer start-->
 </body>
 </html>
