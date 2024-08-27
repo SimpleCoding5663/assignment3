@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>House Developer website</title>
+  <title>Home builder website</title>
   <!--daisyUI and tailwind css cdn link-->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -35,9 +35,9 @@
   </script>
 </head>
 <body class="font-manrope">
-  <header>
+  <header class="bg-gradient-to-b from-cyan-200 to-white">
     <div class="container mx-auto">
-      <div class="navbar">
+      <div class="navbar relative">
         <div class="navbar-start">
           <div class="flex">
             <div class="bg-primary px-3 py-2 rounded-full">
@@ -64,6 +64,9 @@
             <a class="text-base">Book Consult</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
           </div>
         </div>
+        <div class="sm:flex md:hidden lg:hidden absolute top-4 right-10">
+          <a class=" bg-white px-3 py-2 rounded-full"><i class="fa-solid fa-bars text-sm"></i></a>
+        </div>
       </div>
     </div>
     <div class="flex flex-col items-center py-10">
@@ -71,8 +74,8 @@
         <img src="images/banner.png">
       </div>
       <div class="text-center">
-        <h1 class="text-4xl font-bold text-textColor my-8">A barn house of this design has a striking appearance</h1>
-        <p class="text-sm text-textPara mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,<br> sleek metal accents, and large windows that flood the space with natural light.</p>
+        <h1 class="text-4xl font-bold text-textColor my-8">A duplex house of this design has an enchanting look.</h1>
+        <p class="sm:text-sm md:text-sm lg:text-base text-textPara max-w-xl mx-auto mb-6">As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise to drive your business forward.</p>
         <div class="button rounded-3xl bg-primary px-4 py-2 inline-block">
           <a class="text-base">View Details</a><a class=" bg-slate-950 ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm text-white -rotate-45 ... p-1"></i></a>
         </div>
@@ -94,7 +97,7 @@
           </button>
           <div class="pr-4">
             <h2 class="text-4xl font-bold text-textColor my-10">We design thoughtful,<br> liveable spaces</h2>
-            <p class="text-base text-textPara mb-14">The barn house captivates with its blend of rustic charm and<br> modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <p class="text-base text-textPara mb-14">As a leading home builder marketing agency, we understand<br> the unique challenges you face in the industry.</p>
           </div>
           <div class="flex bg-white rounded-xl mb-14">
             <div class="about-icon p-4">
@@ -102,7 +105,7 @@
             </div>
             <div class="about-text p-4">
               <h4 class="text-left text-lg text-textColor font-semibold mb-2">Commercial</h4>
-              <p class="text-left text-xs text-textPara mb-3">The barn house captivates with its blend<br> of rustic charm and modern.</p>
+              <p class="text-left text-xs text-textPara mb-3">As a leading home builder marketing agency<br> we understand the unique challenges.</p>
             </div>
           </div>
           <div class="flex bg-white rounded-xl">
@@ -111,7 +114,7 @@
             </div>
             <div class="about-text p-4">
               <h4 class="text-left text-lg text-textColor font-semibold mb-2">Residential</h4>
-              <p class="text-left text-xs text-textPara mb-3">The barn house captivates with its blend<br> of rustic charm and modern.</p>
+              <p class="text-left text-xs text-textPara mb-3">As a leading home builder marketing agency<br> we understand the unique challenges.</p>
             </div>
           </div>
         </div>
@@ -132,7 +135,7 @@
           Our Works Process
         </h1>
         <p class="text-textPara max-w-xl mx-auto">
-          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise.
         </p>
       </div>
       <!-- Grid Cards -->
@@ -179,19 +182,19 @@
           Our Latest Portfolio
         </h1>
         <p class="text-textPara max-w-xl mx-auto">
-          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise.
         </p>
       </div>
       <!-- Grid Cards -->
       <div class="container mx-auto py-20">
-        <div class="grid grid-cols-4 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           <div class="rounded-xl">
             <img src="images/img1.png" class="w-full h-full object-cover rounded-xl">
           </div>
-          <div class="col-span-2 ...">
+          <div class="sm:col-span-1 md:col-span-1 lg:col-span-2">
             <div class="rounded-2xl">
               <h4 class="text-left text-2xl text-textColor font-semibold mb-6">Commercial</h4>
-              <p class="text-left text-lg text-textPara mb-6">The barn house captivates with its blend of rustic charm<br> and modern. The barn house captivates with its blend of<br> rustic charm and modern .</p>
+              <p class="text-left text-lg text-textPara mb-6">As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise.</p>
               <div class="button rounded-3xl px-4 py-2 inline-block">
                 <a class="text-base">View Details</a><a class=" bg-primary ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm -rotate-45 ... p-1"></i></a>
               </div>
@@ -210,7 +213,7 @@
           <div>
             <div class="rounded-2xl">
               <h4 class="text-left text-2xl text-textColor font-semibold mb-6">Commercial</h4>
-              <p class="text-left text-lg text-textPara mb-6">The barn house captivates with its blend of rustic charm<br> and modern. The barn house captivates with its blend of<br> rustic charm and modern .</p>
+              <p class="text-left text-lg text-textPara mb-6">As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise.</p>
               <div class="button rounded-3xl px-4 py-2 inline-block">
                 <a class="text-base">View Details</a><a class=" bg-primary ml-2 rounded-full"><i class="fa-solid fa-arrow-right text-sm -rotate-45 ... p-1"></i></a>
               </div>
@@ -224,7 +227,7 @@
     </section>
     <!--end of portfolio-->
     <!--team start-->
-    <section class="bg-blue-100 pt-10 pb-20">
+    <section class="bg-blue-100 pt-10 pb-36">
        <!-- Title -->
        <div class="text-center py-5">
         <button class="mb-5">
@@ -235,10 +238,11 @@
         </h1>
       </div>
       <!-- Grid Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 container mx-auto pt-8 pb-12">
-        <div class="rounded-2xl relative">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-40 gap-x-5  container mx-auto pt-8 pb-12">
+        <div class="mx-auto">
+          <div class="rounded-2xl relative">
             <img src="images/team1.png" class="rounded-2xl">
-          <div class="absolute -bottom-16  left-12 bg-white px-7 py-5  text-center rounded-lg">
+          <div class="absolute -bottom-24  left-14 bg-white px-7 py-5  text-center rounded-lg">
             <h5 class="text-base text-textColor font-semibold mb-3">Micheal Anderson </h5>
             <p class="text-textPara text-sm mb-3">CEO | ARCHITECT</p>
             <div class="flex items-center justify-center">
@@ -248,10 +252,13 @@
             </div>
           </div>
         </div>
+        </div>
+        
+      <div class="mx-auto">  
         <div class="rounded-2xl relative">
           <img src="images/team2.png" class="rounded-2xl">
-          <div class="absolute -bottom-16  left-12 bg-white px-7 py-5  text-center rounded-lg">
-            <h5 class="text-base text-textColor font-semibold mb-3">Micheal Anderson </h5>
+          <div class="absolute -bottom-24  left-14 bg-white px-7 py-5  text-center rounded-lg">
+            <h5 class="text-base text-textColor font-semibold mb-3">Brian Adams </h5>
             <p class="text-textPara text-sm mb-3">CEO | ARCHITECT</p>
             <div class="flex items-center justify-center">
               <i class="fa-brands fa-facebook-f text-xs bg-primary rounded-full py-1 px-2 mr-1"></i>
@@ -260,10 +267,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="mx-auto">
         <div class="rounded-2xl relative">
           <img src="images/team3.png" class="rounded-2xl">
-          <div class="absolute -bottom-16  left-12 bg-white px-7 py-5  text-center rounded-lg">
-            <h5 class="text-base text-textColor font-semibold mb-3">Micheal Anderson </h5>
+          <div class="absolute -bottom-24  left-14 bg-white px-7 py-5  text-center rounded-lg">
+            <h5 class="text-base text-textColor font-semibold mb-3">Jon Smith </h5>
             <p class="text-textPara text-sm mb-3">CEO | ARCHITECT</p>
             <div class="flex items-center justify-center">
               <i class="fa-brands fa-facebook-f text-xs bg-primary rounded-full py-1 px-2 mr-1"></i>
@@ -272,10 +281,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="mx-auto">
         <div class="rounded-2xl relative">
           <img src="images/team4.png" class="rounded-2xl">
-          <div class="absolute -bottom-16  left-12 bg-white px-7 py-5  text-center rounded-lg">
-            <h5 class="text-base text-textColor font-semibold mb-3">Micheal Anderson </h5>
+          <div class="absolute -bottom-24  left-14 bg-white px-7 py-5  text-center rounded-lg">
+            <h5 class="text-base text-textColor font-semibold mb-3">luther King </h5>
             <p class="text-textPara text-sm mb-3">CEO | ARCHITECT</p>
             <div class="flex items-center justify-center">
               <i class="fa-brands fa-facebook-f text-xs bg-primary rounded-full py-1 px-2 mr-1"></i>
@@ -284,6 +295,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <!--end of team-->
@@ -298,7 +310,7 @@
           Let’s Discuss Next Project
         </h1>
         <p class="text-textPara max-w-xl mx-auto">
-          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          As a leading home builder marketing agency, we understand the unique challenges you face in the industry and have the experience and expertise.
         </p>
       </div>
       <div>
@@ -339,7 +351,7 @@
       </div>
     </div>
       <p class="text-textPara text-center text-sm my-5">
-        The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+        As a leading home builder marketing agency, we understand the unique challenges you face<br> in the industry and have the experience and expertise.
       </p>
       <div class="flex items-center justify-center">
         <ul class="menu menu-horizontal px-1">
